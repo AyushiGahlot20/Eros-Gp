@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eros-Group</title>
+
+<!--	<noscript>https://www.figma.com/design/11VK7KAhVwsuU5T7zgRHll/Eros-Builder?node-id=61-2&node-type=canvas&t=aT5TNGmRLPiPySXZ-0</noscript>-->
+<!--font-family: "El Messiri", sans-serif;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+
+<!-- font-family: "Poppins", sans-serif;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- font-family: "Nunito Sans", sans-serif;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/owl.carousel.min.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/viewer.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/animate.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/custom.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/menu.css">
+<link rel="stylesheet" href="https://www.eros-group.com/common/css/responsive.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://www.eros-group.com/template/plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="https://www.eros-group.com/template/plugins/jquery-validation/additional-methods.min.js"></script>
+</head>
+<body class="home">
+<!--Header start here-->
+
+<header class="header">
+<div class="header_menu">
+<div class="container">
+<div class="logoin">
+<div class="menu_icon">
+<!--<span class="CL_MNU"></span> 
+<span class="CL_MNU"></span>
+<span class="CL_MNU"></span>-->
+<svg width="101" height="23" viewBox="0 0 101 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M51.602 18V5.31H52.844L57.722 14.472L62.564 5.31H63.806V18H62.438V8.082L58.208 16.038H57.236L52.952 8.1V18H51.602ZM66.9644 18V5.31H74.9744V6.552H68.4044V10.944H74.5964V12.186H68.4044V16.758H74.9744V18H66.9644ZM77.4586 18V5.31H78.6106L86.2606 15.516V5.31H87.6286V18H86.5126L78.8446 7.758V18H77.4586ZM95.7868 18.162C94.1188 18.162 92.8528 17.724 91.9888 16.848C91.1248 15.96 90.6928 14.67 90.6928 12.978V5.31H92.1688V12.906C92.1688 15.534 93.3748 16.848 95.7868 16.848C98.1748 16.848 99.3688 15.534 99.3688 12.906V5.31H100.845V12.978C100.845 14.67 100.413 15.96 99.5488 16.848C98.6968 17.724 97.4428 18.162 95.7868 18.162Z" fill="white" id="Menu_tx"/>
+<path d="M1 12H36" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 1H21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M17 22L36 22" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>						
+
+</div>
+<a href="https://www.eros-group.com/" class="logo_hdr">
+<img src="https://www.eros-group.com/common/images/logo.svg" alt="" class="w-100" />
+</a>
+
+<div class="Top_menu_in">
+<div class="Top_mn_menu">
+<div class="Top_menu_bt">
+<ul class="">
+<li class="" data-toggle="modal" data-target="#Centergetintuch">
+<svg width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.9971 12.2078C21.9971 15.1503 22.0054 18.0928 21.9939 21.0342C21.9866 23.0102 20.9102 24.0991 18.9678 24.1012C13.656 24.1064 8.34535 24.1075 3.03361 24.1012C1.20411 24.0991 0.0388353 23.0478 0.027329 21.2309C-0.00928204 15.2309 -0.00823601 9.23189 0.0252369 3.23292C0.0346512 1.47141 1.13193 0.324961 2.89554 0.308225C8.28259 0.256969 13.6707 0.255923 19.0577 0.301949C20.9489 0.318685 21.9856 1.48605 21.9929 3.38146C22.0044 6.32393 21.996 9.26641 21.996 12.2078H21.9971ZM20.2031 12.1984C20.2031 9.33231 20.1728 6.46515 20.2188 3.59903C20.2355 2.53103 19.8621 2.06032 18.7659 2.06451C13.6058 2.08752 8.44577 2.08647 3.28675 2.06451C2.21248 2.06032 1.78675 2.49338 1.79198 3.57393C1.81813 9.34486 1.81604 15.1168 1.79407 20.8878C1.78989 21.9014 2.15286 22.3303 3.20621 22.324C8.40392 22.2926 13.6027 22.2926 18.8004 22.324C19.8412 22.3303 20.2324 21.9526 20.2178 20.9118C20.177 18.0081 20.2031 15.1022 20.2031 12.1974V12.1984Z" fill="white"/>
+<path d="M16.9653 11H5.03468C4.46324 11 4 11.4475 4 11.9995V12.0005C4 12.5525 4.46324 13 5.03468 13H16.9653C17.5368 13 18 12.5525 18 12.0005V11.9995C18 11.4475 17.5368 11 16.9653 11Z" fill="white"/>
+<path d="M13.2609 6H4.73906C4.33089 6 4 6.4475 4 6.99952V7.00048C4 7.5525 4.33089 8 4.73906 8H13.2609C13.6691 8 14 7.5525 14 7.00048V6.99952C14 6.4475 13.6691 6 13.2609 6Z" fill="white"/>
+<path d="M16.9653 17H5.03468C4.46324 17 4 17.4475 4 17.9995V18.0005C4 18.5525 4.46324 19 5.03468 19H16.9653C17.5368 19 18 18.5525 18 18.0005V17.9995C18 17.4475 17.5368 17 16.9653 17Z" fill="white"/>
+</svg> 
+<a href="javascript:;">
+GET IN TOUCH </a></li>
+</ul>                                                             
+</div>
+</div>						
+</div>
+
+</div>
+</div>
+</div>
+</header>
+
+<!--Header end here--> 
+
+
+<div class="mn_menuscroll">
+<div class="menu_icon_outer">
+<div class="menu_icon">
+<span class="CL_MNU"></span>
+<span class="CL_MNU"></span>
+<span class="CL_MNU"></span>
+</div>
+</div>
+<div class="mn_menu">
+<ul>
+<li><a href="https://www.eros-group.com/">Home</a>
+<li><a href="file:///C:/Users/INT429/Downloads/www.eros_group.com%20(2)%20(1)/www.eros_group.com/www.eros-group.com/about.html">Leadership</a></li>
+<li><a href="https://www.eros-group.com/page/legacy">Legacy</a></li>
+<li><a href="javascript:;">Projects</a>
+<ul>
+    <li><a href="https://www.eros-group.com/home/listing/residential">Residential</a></li>
+    <li><a href="https://www.eros-group.com/home/listing/commercial">Commercial</a>
+</li>
+<li><a href="https://www.eros-group.com/home/listing/hospitality">Hospitality</a></li>
+</ul>
+</li>
+
+<!--<li><a href="javascript:;">NRI Corner</a></li>-->
+
+
+
+<li><a href="https://www.eros-group.com/page/csr">CSR</a></li>
+<li><a href="https://www.eros-group.com/page/media">Media</a></li>
+<li><a href="javascript:;">Careers</a>
+<ul>
+<li><a href="https://www.eros-group.com/page/careers">Life at Eros</a></li>
+<li><a href="https://www.eros-group.com/page/jobopening">Job Opening</a></li>
+</ul>
+</li>
+<li><a href="https://www.eros-group.com/page/contact_us">Contact Us</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="banner wow fadeInDown" data-wow-delay="0.1s">
+<div class="hero">
+<div class="pic">
+<picture>
+<source media="(max-width: 767px)" srcset="https://www.eros-group.com/common/images/about_banner.jpg"  class="w-100" />
+<!--<source media="(min-width: 800px)" srcset="elva-800w.jpg" />-->
+<img src="https://www.eros-group.com/common/images/about_banner.jpg" alt="" class="w-100" />
+</picture>
+</div>
+</div>
+
+<div class="bnr_tx">
+<div class="container">
+<div class="bnr_tx_in">
+<h1 class=" wow fadeInDown" data-wow-delay="0.1s">Leadership</h1>
+</div>
+</div>
+</div>
+</div>
+<div class="breadcrumb_custom">
+<div class="container">
+<ul>
+<li><a href="javascript:;">Home</a></li>
+<li>Leadership</li>
+</ul>
+</div>
+</div>
+
+<section class="body_container">
+<div class="container">
+<div class="speaker_bx">
+<div class="row">
+<div class="col-md-4">
+<div class="speaker_img"><img src="https://www.eros-group.com/common/images/Jagdish-Rai-Sood.jpg" alt="" class="w-100"></div>
+</div>
+<div class="col-md-8">
+<div class="speaker_tx">
+<h2 class="title font40 white"> Jagdish Rai Sood<span class="border_hd"></span></h2>
+<h6 class="designation">Founder</h6>
+<div class="speaker_discrip">
+<h2 class="title font40"> Founder EROS</h2>
+<p>
+Founder of the EROS Group, a diverse multi-faceted over 12000 crores ($1.78 billion) family owned entity with a primary business focus on Hospitality, Real Estate, Entertainment Business, Mr. J.R Sood has a simple yet strategic Corporate Philosophy, “slow and steady wins the race”. The chairman believes in gradual and consistent growth as the Foundation of every successful venture. It is on this platform that tracked activities take place.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="Hospitality_scn our_mission">
+<div class="row">
+<div class="col-md-6 col-sm-6">
+<div class="Hospitality_bx">
+<a href="javascript:;">
+<div class="Legacies_lt_img wow fadeInDown" data-wow-delay="0.1s">
+<img src="https://www.eros-group.com/common/images/Our-Vision.jpg" alt="" class="w-100 Hospitality_img">
+<div class="Legacies_lt_tx">
+<h2 class="title font40 wow fadeInDown" data-wow-delay="0.2s">Our Vision</h2>
+<p class="wow fadeInDown" data-wow-delay="0.4s">To position EROS Group as an integrated real estate development in Delhi and National Capital Region with the highest quality of construction, ethics, business standards and value creation for our esteemed customers.</p>
+</div>
+</div>
+
+
+</a>
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<div class="Hospitality_bx">
+<a href="javascript:;">
+<div class="Legacies_lt_img wow fadeInDown" data-wow-delay="0.1s">
+<img src="https://www.eros-group.com/common/images/Our-Mission.jpg" alt="" class="w-100 Hospitality_img">
+<div class="Legacies_lt_tx">
+<h2 class="title font40  wow fadeInDown" data-wow-delay="0.2s">Our Mission</h2>
+<p class="wow fadeInDown" data-wow-delay="0.4s">On time Quality, Delivery & Possession. Our endeavor is to build substantial value for our respective customers. When it comes to Real estate, Hospitality and Entertainment only one name stands tall “EROS Group”.</p>
+</div>
+</div>
+
+
+</a>
+</div>
+</div>
+</div>	
+</div>
+
+</div>	
+</section>
+
+<section class="Board_Directors_scn">
+<div class="container">
+<div class="articles_scn">
+<div class="articles_hd">
+<h2 class="title text-center wow fadeInDown" data-wow-delay="0.1s">Board of Directors</h2>
+</div>
+<div class="row wow fadeInDown" data-wow-delay="0.1s">
+<div class="col-md-4 col-sm-6">
+<div class="articles_bx">
+<span class="articles_img"><img src="https://www.eros-group.com/common/images/Raman.jpg" alt="" class="w-100"></span>
+<div class="articles_tx text-center">
+<h3 class="font30">Raman Kumar Sood</h3>
+<h6 class="designation text-center">Managing Director</h6>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+<div class="articles_bx">
+<span class="articles_img"><img src="https://www.eros-group.com/common/images/Ajay.jpg" alt="" class="w-100"></span>
+<div class="articles_tx text-center">
+<h3 class="font30">Ajay Kumar Sood</h3>
+<h6 class="designation text-center">Managing Director</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="Directors_scn">
+<div class="articles_hd">
+<h2 class="title text-center wow fadeInDown" data-wow-delay="0.1s">Accountant</h2>
+</div>
+<div class="row wow fadeInDown" data-wow-delay="0.1s">
+<div class="col-md-3 col-sm-6 col-6">
+<div class="articles_bx">
+<span class="articles_img"><img src="imagg\ACC3.jpeg" alt="" class="w-100" height="300"></span>
+<div class="articles_tx text-center">
+<h3 class="font30">Ratika Sharma</h3>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-6">
+<div class="articles_bx">
+<span class="articles_img"><img src="imagg\ACC1.jpeg" alt="" class="w-100" height="300"></span>
+<div class="articles_tx text-center">
+<h3 class="font30">Ospal Singh Chouhan</h3>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-6">
+<div class="articles_bx">
+<span class="articles_img"><img src="imagg\ACC2.jpeg" alt="" class="w-100" height="300"></span>
+<div class="articles_tx text-center">
+<h3 class="font30">Deepak Sharma</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>	
+</section>
+
+
+<section class="building_scn">
+<div class="container">
+<div class="building_in">
+<div class="building_bx">
+<span class="building_tp"><span>Legacy <span class="building_border"></span></span></span>
+<h3 class="title white font36">Building Lives</h3>
+<a href="https://www.eros-group.com/page/legacy" class="building_arrow">
+<svg width="77" height="20" viewBox="0 0 77 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9.7793H75.2492" stroke="#D9D9D9" stroke-linecap="round"/>
+<path d="M66.7207 1L75.5002 9.77946L66.7207 18.5589" stroke="#D9D9D9" stroke-linecap="round"/>
+</svg>						
+</a>
+</div>
+<div class="building_bx">
+<span class="building_tp"><span>CSR <span class="building_border"></span></span></span>
+<h3 class="title white font36">Corporate Social <br> Responsibility</h3>
+<a href="https://www.eros-group.com/page/csr" class="building_arrow">
+<svg width="77" height="20" viewBox="0 0 77 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9.7793H75.2492" stroke="#D9D9D9" stroke-linecap="round"/>
+<path d="M66.7207 1L75.5002 9.77946L66.7207 18.5589" stroke="#D9D9D9" stroke-linecap="round"/>
+</svg>						
+</a>
+</div>
+<div class="building_bx">
+<span class="building_tp"><span>Life @ Eros<span class="building_border"></span></span></span>
+<h3 class="title white font36">Want to join <br> our team?
+</h3>
+<a href="https://www.eros-group.com/page/careers" class="building_arrow">
+<svg width="77" height="20" viewBox="0 0 77 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9.7793H75.2492" stroke="#D9D9D9" stroke-linecap="round"/>
+<path d="M66.7207 1L75.5002 9.77946L66.7207 18.5589" stroke="#D9D9D9" stroke-linecap="round"/>
+</svg>						
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="ftr_menu wow fadeInDown" data-wow-delay="0.1s">
+<!--<a href="https://www.eros-group.com/home/listing/residential">residential</a>-->
+<!--<a href="https://www.eros-group.com/home/listing/commercial">commercial</a>-->
+<!--<a href="javascript:;">hospitality</a>-->
+
+
+
+
+<a href="https://www.eros-group.com/page/contact_us">Contact</a>
+<a href="https://www.eros-group.com/page/csr">CSR</a>
+<a href="https://www.eros-group.com/page/compliance">Compliances &amp; Clearances</a>
+<a href="https://www.eros-group.com/page/media">Media</a>
+<a href="https://www.eros-group.com/page/privacy_Policy">Privacy Policy</a>
+<a href="https://www.eros-group.com/page/terms_conditions">Terms &amp; Conditions</a>
+</div>
+</div>	
+</footer>
+
+
+<div class="copy_rt">
+<div class="container">
+<div class="copy_rt_in">
+<p>©2025 Eros Group. All Rights Reserved.</p>
+<div class="social_media">
+<a href="https://www.instagram.com/eros_group/?hl=en" target=_blank"><img src="https://www.eros-group.com/common/images/instagram-icon.svg" alt=""></a>
+<!--<a href="javascript:;"><img src="https://www.eros-group.com/common/images/Subtract.svg" alt=""></a>-->
+<a href="https://www.facebook.com/erosgroupindia"  target=_blank><img src="https://www.eros-group.com/common/images/facebook-icon.svg" alt=""></a>
+<!--<a href="javascript:;"><img src="https://www.eros-group.com/common/images/Twitter.svg" alt=""></a>-->
+<!--<a href="javascript:;"><img src="https://www.eros-group.com/common/images/Vector.svg" alt=""></a>-->
+</div>
+<p>Site by: <a href="https://dezinendigital.com/" target="_blank">Dezine N Digital</a></p>
+</div>
+</div>	
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="Centergetintuch" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="title">Get In Touch</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+            <div class="getintuch_in ftr_rt">
+			<form action="https://www.eros-group.com/home/request1" id="form2" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="1d32eea042818285bb9ec9bd6f31dab7" />                                                     
+                <div class="row">
+				
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <input type="text" name="name1" class="form-control"  placeholder="Name*"/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="email1" class="form-control"  placeholder="Email Id*"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="contact1" class="form-control"  placeholder="Phone Number*"/>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <textarea name="remarks" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+					<input type="hidden" name="current_url" value="https://www.eros-group.com/page/about" />
+					<input type="hidden" name="utm_source" value="" />
+					<input type="hidden" name="utm_medium" value="" />
+					<input type="hidden" name="utm_campaign" value="" />
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="submit" name="submitBTN1" value="Submit" class="sub_btn">
+                    </div>
+                    </div>
+					
+					
+                </div>
+				</form>
+            </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--<script src="https://www.eros-group.com/common/js/jquery-2.2.4.js"></script>-->
+<script src="https://www.eros-group.com/common/js/bootstrap.min.js"></script>
+<script src="https://www.eros-group.com/common/js/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://www.eros-group.com/common/js/main-new.js"></script>
+<script src="https://www.eros-group.com/common/js/viewer.js"></script>
+<script src="https://www.eros-group.com/common/js/waypoints.min.js"></script>
+<script src="https://www.eros-group.com/common/js/jquery.counterup.min.js"></script>
+<script src="https://www.eros-group.com/common/js/wow.js"></script>
+<script src="https://www.eros-group.com/common/js/common.js"></script>
+<script>
+
+
+var banerSlider = $('.banerSlider');
+banerSlider.owlCarousel({
+loop:true,
+margin:0,
+autoplay:true,
+singleItem:true,
+item:1,
+pagination:true,
+navigation :true,
+animateOut: 'fadeOut',
+animateIn: 'fadeIn',
+touchDrag: true,
+mouseDrag: true,
+responsive:{
+0:{
+items:1
+},
+750:{
+items:1
+},
+800:{
+items:1
+},
+1190:{
+items:1
+}
+}
+
+});
+$(document).ready(function () {
+
+$('.Projects_tabs_show').not(':first-child').hide();
+$('Our_Projects_Cl:first-child').addClass('active');
+$('.Our_Projects_Cl').click(function(){
+var Our_Projects_Tabs = $(this).attr('data-target');
+$('.Projects_tabs_show').hide();
+$('#'+Our_Projects_Tabs).show();
+$(this).addClass('active').siblings().removeClass('active');
+})
+
+$('.articles_item').not(':first-child').hide();
+$('media_bx_item:first-child').addClass('active');
+$('.media_bx_item').click(function(){
+var media_bx_Tabs = $(this).attr('data-target');
+$('.articles_item').hide();
+$('#'+media_bx_Tabs).show();
+$(this).addClass('active').siblings().removeClass('active');
+});
+
+
+var Legacies_rt_Sl = $('.Legacies_rt_Sl');
+Legacies_rt_Sl.owlCarousel({
+loop:true,
+margin:30,
+autoplay:true,
+nav: true,
+item:2,
+pagination:true,
+navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+navContainer: '#my_nav_container',
+responsive:{
+0:{
+items:1
+},
+575:{
+items:2
+},
+991:{
+items:2
+},
+1190:{
+items:2
+}
+}
+
+});
+
+// var Customers_Sl = $('.Customers_Sl');
+// Customers_Sl.owlCarousel({
+// 	loop:true,
+// 	margin:30,
+// 	autoplay:true,
+// 	item:3,
+// 	pagination:true,
+// 	navigation :true,
+// 	responsive:{
+// 		0:{
+// 			items:1
+// 		},
+// 		750:{
+// 			items:2
+// 		},
+// 		800:{
+// 			items:3
+// 		},
+// 		1190:{
+// 			items:3
+// 		}
+// 	}
+
+// });
+
+
+var Residential_Sl = $('.Residential_Sl');
+Residential_Sl.owlCarousel({
+loop:true,
+margin:30,
+autoplay:true,
+item:3,
+pagination:false,
+navigation :true,
+onInitialized: counter,
+onChanged: counter,
+//navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+//navContainer: '#my_nav_container',
+responsive:{
+0:{
+items:1
+},
+640:{
+items:2
+},
+800:{
+items:2
+},
+1024:{
+items:3
+}
+}
+
+});
+function counter(event) {
+if (!event.namespace) {
+return;
+}
+var slides = event.relatedTarget;
+$('.slider-counter').text(slides.relative(slides.current()) + 1 + '/' + slides.items().length);
+}
+
+var Commercial_Sl = $('.Commercial_Sl');
+Commercial_Sl.owlCarousel({
+loop:true,
+margin:30,
+autoplay:true,
+item:3,
+pagination:false,
+navigation :true,
+onInitialized: counter,
+onChanged: counter,
+//navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+//navContainer: '#my_nav_container',
+responsive:{
+0:{
+items:1
+},
+750:{
+items:2
+},
+800:{
+items:3
+},
+1190:{
+items:3
+}
+}
+
+});
+
+
+var Discover_Sl = $('.Discover_Sl');
+Discover_Sl.owlCarousel({
+loop:false,
+margin:0,
+autoplay:true,
+item:1,
+pagination:true,
+navigation :true,
+responsive:{
+0:{
+items:1
+},
+750:{
+items:1
+},
+800:{
+items:1
+},
+1190:{
+items:1
+}
+}
+
+});
+
+var unit_plan_slider = $('.unit_plan_slider');
+unit_plan_slider.owlCarousel({
+loop:false,
+margin:30,
+autoplay:true,
+item:1,
+pagination:true,
+navigation :true,
+responsive:{
+0:{
+items:1
+},
+640:{
+items:2
+},
+800:{
+items:3
+},
+1190:{
+items:3
+}
+}
+
+});
+
+
+function counter(event) {
+if (!event.namespace) {
+return;
+}
+var slides = event.relatedTarget;
+$('.slider-counter2').text(slides.relative(slides.current()) + 1 + '/' + slides.items().length);
+}
+
+});
+
+
+jQuery(document).ready(function( $ ) {
+$('.counter').counterUp({
+delay: 15,
+time: 3000
+});
+});
+new WOW().init();    
+</script>
+<script>
+$(document).ready(function () {
+	
+	// $('.Projects_tabs_show').not(':first-child').hide();
+	// $('Our_Projects_Cl:first-child').addClass('active');
+	// $('.Our_Projects_Cl').click(function(){
+	// 	var Our_Projects_Tabs = $(this).attr('data-target');
+	// 	$('.Projects_tabs_show').hide();
+	// 	$('#'+Our_Projects_Tabs).show();
+	// 		$(this).addClass('active').siblings().removeClass('active');
+	// })
+
+	$('.Projects_pg_bx').not(':first-child').hide();
+	$('Projects_tab_Cl:first-child').addClass('active');
+// 	$('.Projects_tab_Cl').click(function(){
+// 		var Projects_tab_Cl = $(this).attr('data-target');
+// 		$('.Projects_pg_bx').hide();
+// 		$('#'+Projects_tab_Cl).show();
+// 			$(this).addClass('active').siblings().removeClass('active');
+// 	})
+
+});	
+new WOW().init();    
+</script>
+<script>
+$(document).ready(function () {
+	
+	$('.VR_Tour_item').not(':first-child').hide();
+	$('VR_Tour_cl_item:first-child').addClass('active');
+	$('.VR_Tour_cl_item').click(function(){
+		var VR_Tour_cl_item_Tabs = $(this).attr('data-target');
+		$('.VR_Tour_item').hide();
+		$('#'+VR_Tour_cl_item_Tabs).show();
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+	
+	
+	$('.Plans_item').not(':first-child').hide();
+	$('Plans_cl_item:first-child').addClass('active');
+	$('.Plans_cl_item').click(function(){
+		var Plans_item_Tabs = $(this).attr('data-target');
+		$('.Plans_item').hide();
+		$('#'+Plans_item_Tabs).show();
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+	
+	$('.profile-box').hover(function(){
+		$(this).addClass('active').siblings().removeClass('active')
+	})
+	
+
+});
+const lightbox = GLightbox({
+  touchNavigation: true,
+  loop: true,
+  width: "90vw",
+  height: "90vh"
+});
+
+jQuery(document).ready(function( $ ) {
+	$('.counter').counterUp({
+		delay: 15,
+		time: 3000
+	});
+});
+new WOW().init();    
+</script>
+<script>
+$(document).ready(function(){
+	$('.readmore_Cl').click(function(){
+		$(this).hide();
+		$('.readmore_show').slideDown();
+	})
+	
+	$('.readless_Cl').click(function(){
+		$('.readmore_Cl').show();
+		$('.readmore_show').slideUp();
+	})
+})
+
+// $(document).ready(function() {
+// 	$('.accordion_Cl').click(function(){
+// 		$(this).parent().toggleClass('accordion_bx_Add');
+// 		$(this).parent().siblings().removeClass('accordion_bx_Add');
+// 		$(this).parent().children('.accordion_Show').slideToggle();
+// 		$(this).parent().siblings().find('.accordion_Show').slideUp();
+// 	})
+// });
+new WOW().init();
+
+</script>
+<script type="text/javascript">
+$.validator.addMethod("validemail", function(value, element) {
+// allow any non-whitespace characters as the host part
+return this.optional( element ) || /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@(?:\S{1,63})$/.test( value );
+}, 'Please enter a valid email address.');
+
+$.validator.addMethod("lettersonly", function(value, element) {
+return this.optional(element) || /^[a-zA-Z\s]*$/.test(value);
+}, "Letters only please");
+		
+$("#form1").validate({
+	errorClass: "validationError",
+		rules: {
+			name: {
+      			required: true,
+      			lettersonly: true
+    		},
+			csp_code: "required",
+			location_id: "required",
+			visapply: "required",
+			district_id: "required",
+			block_id: "required",
+			gp_id: "required",
+			qcat_id: "required",
+			qtype_id: "required",
+			email: {
+				required: true,
+				validemail: true
+			},
+			contact: {
+				required:true,
+				minlength:10,
+				maxlength:10,
+				number: true
+			},
+			comments: "required"
+		},
+		messages: {
+			name: {
+                 required: "Please enter name",
+				 lettersonly:"Please enter only letters",
+			},
+ 			email: {
+                 required: "Please enter email",
+				 validemail:"Please enter valid email id"
+			},
+			contact: {
+				required: "Please enter mobile",
+				number:"Please enter valid mobile"
+			}
+		},
+		errorElement: 'span',
+		errorPlacement: function (error, element) {
+		error.addClass('invalid-feedback');
+		element.closest('.form-group').append(error);
+		},
+		highlight: function (element, errorClass, validClass) {
+		$(element).addClass('is-invalid');
+		},
+		unhighlight: function (element, errorClass, validClass) {
+		$(element).removeClass('is-invalid');
+		},
+		});
+		
+$("#form2").validate({
+	errorClass: "validationError",
+		rules: {
+			name1: {
+      			required: true,
+      			lettersonly: true
+    		},
+			email1: {
+				required: true,
+				validemail: true
+			},
+			contact1: {
+				required:true,
+				minlength:10,
+				maxlength:10,
+				number: true
+			},
+			message: "required"
+		},
+		messages: {
+			name1: {
+                 required: "Please enter name",
+				 lettersonly:"Please enter only letters",
+			},
+ 			email1: {
+                 required: "Please enter email",
+				 validemail:"Please enter valid email id"
+			},
+			contact1: {
+				required: "Please enter mobile",
+				number:"Please enter valid mobile"
+			}
+		},
+		errorElement: 'span',
+		errorPlacement: function (error, element) {
+		error.addClass('invalid-feedback');
+		element.closest('.form-group').append(error);
+		},
+		highlight: function (element, errorClass, validClass) {
+		$(element).addClass('is-invalid');
+		},
+		unhighlight: function (element, errorClass, validClass) {
+		$(element).removeClass('is-invalid');
+		},
+		});
+</script>
+</body>
+</html>
